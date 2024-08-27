@@ -17,17 +17,15 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  // color: rgb(var(--foreground-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.logo {
+  background: url('https://images.squarespace-cdn.com/content/v1/604c66c2ac3c87033f4201df/1623706834433-VM22YHZ5A8L0AHEXZ6N7/BehaviorFrontiers_Logo_RGB_Horizontal_NoTagline.jpg?format=500w') 0 0 no-repeat; background-size: 124px;
 }
