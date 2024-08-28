@@ -19,7 +19,7 @@ const Page = () => {
                                 <div className="min-w-0 flex-auto">
                                     <p className="text-sm font-semibold leading-6 text-gray-900">Task #1</p>
                                     <div className="mt-1 truncate text-xs leading-5 text-gray-500">
-                                        <p>Given an array of paths with prefix and its children.</p>
+                                        <p>Given an array of paths with path and its children.</p>
                                         <pre>
                                             {`
 [
